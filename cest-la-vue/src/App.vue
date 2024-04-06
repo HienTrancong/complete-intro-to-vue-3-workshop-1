@@ -48,6 +48,10 @@ export default {
 </template>
 
 <style>
+html {
+  background-color: papayawhip;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;

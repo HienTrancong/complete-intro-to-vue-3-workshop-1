@@ -18,5 +18,13 @@ export default {
 <template>
   <h1>User: {{ user.name }}</h1>
   <p>Favorite Food: {{ user.food }}</p>
-  <button @click="tellParentChangeName">Change Name</button>
+  <button @click="tellParentChangeName" :class="$style.button">
+    Change Name
+  </button>
 </template>
+
+<style module>
+.button {
+  border: 10px solid green;
+}
+</style>

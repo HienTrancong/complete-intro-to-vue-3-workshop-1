@@ -91,3 +91,13 @@ export default {
     </li>
   </ul>
 </template>
+
+<style>
+html {
+  background-color: papayawhip;
+}
+
+.button {
+  border: 10px solid red !important;
+}
+</style>

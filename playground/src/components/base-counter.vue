@@ -30,7 +30,7 @@ export default {
 <template>
   <h1>{{ displayTitle }}</h1>
   <p :data-increment-by="incrementAmount">{{ count }}</p>
-  <button @click="incrementCount">Increment Count</button>
+  <button class="button" @click="incrementCount">Increment Count</button>
   <h1>{{ incrementAmount }}</h1>
   <p>{{ optimizedIncrementAmount }}</p>
   <div>
